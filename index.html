@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>week 5</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>week 5</h1>
-    <h2>this is week 3</h2>
+  <div class="registration-form">
+    <h1>Create Account</h1>
+    <form action="success.html">
+      <p>First Name</p>
+      <input type="text" name="fname" placeholder="Enter Your First Name" required>
+      <p>Last Name</p>
+      <input type="text" name="lname" placeholder="Enter Your Last Name" required>
+      <p>Phone Number</p>
+      <input type="number" name="pnumber" placeholder="Enter Your Phone Number" required>
+      <p>Email</p>
+      <input type="email" name="email" placeholder="Enter Your Email Address" required>
+      <p>Date of Birth</p>
+      <input type="date" name="dob" placeholder="Enter Your Date of Birth" required>
+      <p>Favourite Color</p>
+      <input type="color" name="color" placeholder="Enter Your Favourite Color">
+      <p>Gender</p>
+      <select name="gender" id="gender">
+
+<option value="S">Select</option>
+        <option value="M">Male</option>
+        <option value="F">Female</option>
+        <option value="O">Others</option>
+      </select>
+      <button type="submit">Sign Up</button>
+
+      <div class="login">
+        <p>Already have an account? <a href="login.html">Login</a></p>
+      </div>
+    </form>
+  </div>
 </body>
+
 </html>
