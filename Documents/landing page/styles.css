@@ -1,10 +1,4 @@
-@font-face {
-    font-family: 'poppins';
-    src: url(fonts/Poppins-Medium.ttf) format('ttf'),
-      url(fonts/Poppins-Medium.ttf) format('ttf'),
-    font-weight bold
-    font-style normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 *{
   padding: 0;
@@ -16,15 +10,16 @@
 }
 
 .page{
-  height: 100vh;
+  position: relative;
+  height: 150px;
   width: 100%;
-  background-color: azure;
+  background-color:#FFFFFF;
 }
 
 nav {
   display: flex;
   align-items: center;
-  background: azure;
+  background:rgba(255, 255, 255, 0.1);
   justify-content: space-between;
   padding-top: 5px;
   padding-left: 10%;
@@ -58,7 +53,7 @@ nav ul li a:hover{
 
 button{
   border: none;
-  background:darkorange;
+  background:linear-gradient(134deg, #EB001B -43.28%, #F79E1B 97%);
   padding: 10px 20px;
   border-radius: 3px;
   color: white;
@@ -78,7 +73,8 @@ button:hover{
   justify-content: space-between;
   width: 80%;
   margin: auto;
-  background-color: azure;
+  background-color:#FFFFFF;
+  fill: solid;
 }
 
 .section img{
@@ -89,20 +85,39 @@ button:hover{
 }
 
 .section h1{
-  margin: 0;
-  font-family: 'poppins', sans-serif;
-  font-size: 56px;
-  line-height: 84px;
-  width: 526px;
-  height: 168px;
-  color: rgba(35, 31, 32, 0.9);
+width: 550px;
+height: 168px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 56px;
+line-height: 84px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 
 .section p{
-  margin-right: 10px;
-  font-family: 'poppins', sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 30px;
-  color: black;
+width: 550px;
+height: 90px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.Description-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  background-color:#FFFFFF;
+  fill: solid;
 }
